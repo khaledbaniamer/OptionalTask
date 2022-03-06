@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(17, 17, 54);
+    color: white;
+}
+
+table {
+    margin-right: 0px;
+    border-spacing: 35px;
+}
+th{
+    text-align: left;
+}
+
+td {
+    background-color: rgb(5, 5, 36);
+    border: 1px solid rgb(5, 5, 36);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+.facebook ,.twiter ,.tiktok , .instgram{
+    background-image: url(facebook.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 20px 25px;
+    border-top-color: blue;
+    border-top-width: 7px;
+}
+
+.twiter{
+    background-image: url(twitter.png);
+    border-top-color: rgb(24, 170, 228);
+    border-top-width: 7px;
+}
+
+.instgram{
+    background-image: url(instagram.png);
+    border-top-color: rgb(197, 134, 39);
+    border-top-width: 7px;
+}
+.tiktok{
+    background-image: url(tik-tok.png);
+    border-top-color: white;
+    border-top-width: 7px;
+}

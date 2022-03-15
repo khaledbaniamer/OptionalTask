@@ -1,0 +1,55 @@
+body{
+    background-image: url(imge/bg-stars.svg);
+    
+    background-color: rgb(32, 25, 37);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    margin: 50px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.pic img{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+p{
+    color: grey;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+
+.box div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box div:nth-child(1){
+    height: 200px;
+    width: 200px;
+    color: rgb(160, 47, 85);
+    font-size: 125px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(58, 48, 65);
+    font-weight: bold;
+}
+

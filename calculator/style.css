@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(8, 58, 122);
+    
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(12,105px);
+    grid-template-rows: repeat(24,58px);
+    
+}
+
+.calc{
+    grid-area: 3/6/4/7;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+label{
+    color: white;
+    font-size: 50px;
+}
+
+#result{
+    grid-area: 4/6/6/11;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(17, 4, 61);
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: white 0px 0px 15px -2px;
+}
+
+
+.number {
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+    margin: 7px;
+    box-shadow: white 0px -23px 25px 0px inset;
+    font-weight: bold;
+    
+}
+.number:nth-child(4){
+    box-shadow: none;
+    background-color: gray;
+}
+#other input{
+    width: 190px;
+    height: 40px;
+  
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+#other input:nth-child(1){
+    background-color: gray;
+}
+#other input:nth-child(2){
+    background-color: red;
+}
+#box{
+    grid-area: 6/6/9/9;
+    display: grid;
+    grid-template-columns: repeat(4,104px);
+}
+#other{
+    grid-area: 11/6/12/10;
+    display: flex;
+    
+    
+     
+}
+
+#sectionBox{
+
+    background-color: rgb(17, 4, 61);
+    display: grid;
+    grid-area: 6/6/12/11;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: white 0px 0px 15px -2px ;
+}   

@@ -25,6 +25,7 @@ label{
 }
 
 #result{
+    
     grid-area: 4/6/6/11;
     display: flex;
     flex-direction: row-reverse;
@@ -86,3 +87,6 @@ label{
     border-radius: 20px;
     box-shadow: white 0px 0px 15px -2px ;
 }   
+*{
+    box-sizing: border-box;
+}

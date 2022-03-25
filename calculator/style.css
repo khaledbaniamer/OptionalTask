@@ -37,7 +37,7 @@ label{
 }
 
 
-.number {
+.number  {
     height: 40px;
     width: 75px;
     border-radius: 5px;
@@ -46,7 +46,12 @@ label{
     font-weight: bold;
     
 }
-.number:nth-child(4){
+#delete{
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+    margin: 7px;    
+    font-weight: bold;
     box-shadow: none;
     background-color: gray;
 }
